@@ -3,7 +3,9 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "promptcost"
+# PyPI distribution name. The Python import name stays `promptcost`
+# (see `from promptcost import ...`); they don't have to match.
+name = "promptcostimator"
 version = "0.2.0"
 description = "A-priori cost estimation for LLM workloads across every provider LiteLLM supports."
 readme = "README.md"

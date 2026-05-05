@@ -14,8 +14,11 @@ Cheapest: gemini-2.5-flash → $15.625
 ## Install
 
 ```bash
-pip install promptcost
-# or, for development:
+pip install promptcostimator
+# the import name is still `promptcost`:
+python -c "from promptcost import estimate"
+
+# Or, for development:
 git clone https://github.com/harsha20032020/promptcost && cd promptcost && pip install -e .
 ```
 
